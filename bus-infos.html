@@ -20,6 +20,30 @@
 
 <body>
 
+  <!-- navigation bar -->
+
+	<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ffffff;">
+		<a class="navbar-brand" href="index.html">My Buses</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <span class="navbar-text">
+      <form class="form-inline">
+        <!-- <button type="button" class="btn btn-primary btn-lg" onclick=" window.open('map.html','_blank')" >Nearby</button> -->
+        <button type="button" class="btn btn-primary btn-sm" onclick="location.href='map.html'" >Map</button>
+      </form>
+    </span>
+  </div>
+</nav>
+
+
   <div class="input-group mb-3">
   <input type="text" class="form-control" id ="input-bus-code"placeholder="Enter Bus Number" aria-label="Default" aria-describedby="inputGroup-sizing-default">
   <button type="button" class="btn btn-link" id="btn-search">Search</button>
