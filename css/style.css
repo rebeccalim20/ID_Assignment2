@@ -1,0 +1,106 @@
+h1{
+   justify-content: center;
+   padding: 99px 0px 47px 0px;
+} 
+
+
+.card {
+    border: transparent; 
+}
+
+.row{
+  margin-right: 0; 
+  margin-left: 0;
+  padding-bottom: 50px;
+}
+
+.content {
+  width:30%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ /* Top navbar stuff */
+.navbar {
+    background: #444;
+    transition: all .6s;
+    backface-visibility: hidden;
+    box-shadow: 0 0px 5px 0px rgba(199, 199, 199, 0.5);
+}
+
+.navbar-light .navbar-toggler:focus {
+    background: none;
+    outline: 0;
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+ 
+.navbar-light .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background: rgb(0, 0, 0);
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+/* rotate first span */
+.navbar-light .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+ 
+/* hide second span */
+.navbar-light .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+}
+ 
+/* rotate third span */
+.navbar-light .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+ 
+.navbar-light .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+}
+
+/* btn top nav bar */
+ 
+.btn-primary {
+  color: #fff;
+  background-color: #0093FF;
+  border-radius: 25px;
+  border: transparent;
+  width: 100px;
+  height: 40px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .content {
+  width:50%;
+}
+
+.row{
+  margin-right: 0; 
+  margin-left: 0;
+  padding-bottom: 20px;
+}
+
+}
+
+@media only screen and (max-width: 250px) {
+
+.content {
+  width:60%;
+}
+
+}
