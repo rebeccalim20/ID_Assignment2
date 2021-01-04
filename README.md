@@ -10,6 +10,7 @@
 - [Datagov](https://data.gov.sg/)
 - [DataMall](https://www.mytransport.sg/content/mytransport/home/dataMall.html)
 - [One Map SG](https://www.onemap.sg/home/)
+- [Bus Map](https://github.com/cheeaun/busrouter-sg)
 
 
 ## Credits
@@ -24,3 +25,5 @@
 - https://www.iconfinder.com/
 - https://www.flaticon.com/
 - https://fontawesome.com/
+
+- https://github.com/rebeccalim20/ID_Assignment2
