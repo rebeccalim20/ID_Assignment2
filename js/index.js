@@ -13,18 +13,16 @@ $(document).ready(function () {
     span_items.forEach(function(item){
       console.log(item.textContent);
       if(item.textContent.toLowerCase().indexOf(search_item) != -1){
-         item.closest("div").style.display ="block";
+         item.closest("tr").style.display ="";
       }
       else{
-        item.closest("div").style.display = "none";
+        item.closest("tr").style.display = "none";
       }
     })
   
 
 
 })
-
-
 
   
     $("#btn-search").on("click", function (e) {
@@ -38,11 +36,6 @@ $(document).ready(function () {
       //call Ajax by sending the text data
     });
     
-
-
-
-
-
 
     function busresult() {
       var settings = {
@@ -78,12 +71,13 @@ $(document).ready(function () {
           // }
           // console.log(response[i]['ServiceNo']);
           // console.log(obj);
-          responseSummary += '<tr>' +'<div>'+ '<td class="service-no">' +'<span class="text">'
+
+          
+          responseSummary += '<tr>' + '<td class="service-no">' +'<span class="text">'
           + obj['ServiceNo'] + '</span>'+'<br>' + '</td>' + '<td>' + obj['AM_Peak_Freq'] + '<br>' + '</td>' 
-          + '<td>' + obj['AM_Offpeak_Freq'] + '<br>' + '</td>'+'</div>' +'</tr>'
+          + '<td>' + obj['AM_Offpeak_Freq'] + '<br>' + '</td>' +'</tr>' 
         }
         $("#bus-content").html(responseSummary);
-  
   
   
       });
