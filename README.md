@@ -3,8 +3,10 @@
 - The website consist of the bus fares  bus arrival time , and peak hour for bus timing and allowing user to browse them
 
 ## Design Process
+- User : for anyone that want to know about the bus information ,regarding on bus fares and bus arrival timing and peak timing .
 
-- As a user type, the website allow user to view the bus fare and bus arrival time
+- I wanted to make the website looks clean and created the website that looks simple and easy for users to browse them .I did my design in a table format with scaling of the text accordingly to different header and paragraph. User will be able to view them easily  so that it will be cater for their needs. The website should be able to browse on web on different devices  and added responsive design when user browse the website.
+
 
 ## Features
 - All pages consist of the link to the map for bus directory 
@@ -14,6 +16,7 @@
 -  For the bus fare , it consist of bus fare per ride with distance
 - For the bus stop , user key in bus stop number and get the data of bus arrival timing 
 - Information , its pop up feature credit to the data retrieved
+
 ### Existing Features
 - Bus information consist of bus peak and off peak hour for user to view them
 - User able to filter the search by input bus number to get the peark and off peak hour
@@ -46,17 +49,13 @@
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- Bus stop :
+  - It works only when the bus information is available when the bus information is not available the page will not load
+  - The page will scale down according to different sizing , the data of the table does not looks nice.
+- Bus fare  :
+  - The page will scale down according to different sizing , the data of the table does not looks nice.
+    
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ## Credits
