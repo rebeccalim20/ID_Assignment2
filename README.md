@@ -6,7 +6,9 @@
 - User : for anyone that want to know about the bus information ,regarding on bus fares and bus arrival timing and peak timing .
 
 - I wanted to make the website looks clean and created the website that looks simple and easy for users to browse them .I did my design in a table format with scaling of the text accordingly to different header and paragraph. User will be able to view them easily  so that it will be cater for their needs. The website should be able to browse on web on different devices  and added responsive design when user browse the website.
-
+- adobe xd 
+- [desktop view](https://xd.adobe.com/view/47eef7d8-fc5c-449a-b4b5-5fb9c27bb40a-12bd/)
+- [mobile view](https://xd.adobe.com/view/d2073abd-6303-46d2-b035-e8a6d42df68d-8754/)
 
 ## Features
 - All pages consist of the link to the map for bus directory 
