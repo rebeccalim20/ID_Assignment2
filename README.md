@@ -53,11 +53,13 @@ For any scenarios that have not been automated, test the user stories manually a
 - Bus stop :
   - It works only when the bus information is available when the bus information is not available the page will not load
   - The page will scale down according to different sizing , the data of the table does not looks nice.
+  - Might take more time for the data to load 
 - Bus fare  :
-  - The page will scale down according to different sizing , the data of the table does not looks nice.
-    
-
-
+  - The page will scale down according to different sizing ,in table form
+  - Only consist of bus fare data
+- Bus information :
+  - only had a few bus data infos 
+  - take quite abit for the data to load
 
 ## Credits
 - NavBar Hamburger
