@@ -26,4 +26,6 @@
 - https://www.flaticon.com/
 - https://fontawesome.com/
 
+#### My website links 
 - https://github.com/rebeccalim20/ID_Assignment2
+- https://rebeccalim20.github.io/ID_Assignment2/
