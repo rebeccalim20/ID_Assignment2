@@ -11,14 +11,17 @@
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Bus information consist of bus peak and off peak hour for user to view them
+- Bus stop arrival timing for user to view them 
+- Bus fare allow user to view and know the pricing according to distance
+- Added a link to map allowing user to view it 
+- In addition plan in the future :
+- I would like to create and customize map data for bus location , make the data of bus fare to looks neater not in table format and bus arrival time to looks neat.
 
 ### Features Left to Implement
 - Edit the bus arrival time to make it nice 
 - Make the data for the bus fare looks nice
+- Implement and design map for bus location
 
 
 ## Technology Used 
