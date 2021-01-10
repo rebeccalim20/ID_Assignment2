@@ -12,7 +12,7 @@ $(document).ready(function () {
     var search_item=e.target.value.toLowerCase();
     var span_items=document.querySelectorAll("#bus-content .service-no .text");
   
-
+    //  getting search to works
     console.log(span_items);
     span_items.forEach(function(item){
       console.log(item.textContent);
@@ -38,8 +38,8 @@ $(document).ready(function () {
       findBus(param);
 
     });
-    
-
+     
+    // result of the bus
     function busresult() {
       var settings = {
         "url": "https://cors-anywhere.herokuapp.com/http://datamall2.mytransport.sg/ltaodataservice/BusServices",

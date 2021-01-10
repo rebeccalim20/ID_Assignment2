@@ -29,15 +29,15 @@ $(document).ready(function () {
           $("#loading").show();
         }
       };
+      //end event handling for form 
   
-
       $.ajax(settings).done(function (response) {
  
         console.log(response);
 
         const services = response.Services;
   
-
+        //display output for the form 
         let arrivals = "";
         for(var i = 0 ; i <services.length; i++){
           
@@ -51,6 +51,7 @@ $(document).ready(function () {
           </tr>`;
         }
         
+        //show the output from the data
         $("#bus-dashboard").toggle();
         $("#loading").toggle();
   
