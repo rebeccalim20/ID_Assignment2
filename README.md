@@ -38,6 +38,7 @@
 - CSS
 - Javascript
 - Adobe XD (Wireframe)
+- [Cors anywhere](https://github.com/Rob--W/cors-anywhere)
 - [Bootstrap](https://getbootstrap.com/)
 - [Datagov](https://data.gov.sg/)
 - [DataMall](https://www.mytransport.sg/content/mytransport/home/dataMall.html)
